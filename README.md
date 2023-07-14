@@ -17,7 +17,7 @@
  style="display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 25%;" /> 
+  height: 100;" /> 
  
 ### Approach steps:
 
