@@ -24,7 +24,7 @@
 
 ### Approach steps:
 
-#### Step 0 - Install the necessary libraries - uncomment and run the following cells if they are not already installed. This is followed by importing the necessary libraries. # Langchain sometimes has issues with dependencies and it is recommended to install with upgrade
+#### Step 0 - Install the necessary libraries - run the following cells if they are not already installed. This is followed by importing the necessary libraries. # Langchain sometimes has issues with dependencies and it is recommended to install with upgrade
 
 ```commandline
 pip -q install alpaca-trade-api alpaca-py transformers openai tiktoken
