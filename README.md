@@ -88,10 +88,12 @@ More info here: https://docs.pydantic.dev/latest/usage/models/ which states:
 
 ### What you should see for each ticker:
 
+<p align="center">
 <img src="https://github.com/semework/llm-GPT-Alpaca-BERT-financial-sentiment-classification/blob/main/assets/images/goog_sentiments.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;"/> 
+</p>
 
 ## Contributing and Permissions
 
