@@ -13,7 +13,7 @@
 
 ### About this repo   
 #### *A jupyter notebook (```llm_sentiment_classifier.ipynb```) which takes in financial news for ticker (AKA stock symbols) and returns sentiments is provided. Final results should look something like this:*
-<img src="https://github.com/semework/llm-GPT-Alpaca-BERT-financial-sentiment-classification/blob/main/assets/images/sentiments.png" style="display: block;
+<img src="https://github.com/semework/llm-GPT-Alpaca-BERT-financial-sentiment-classification/blob/main/assets/images/semtiments.png" style="display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75%;" /> 
