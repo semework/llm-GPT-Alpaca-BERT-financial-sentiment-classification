@@ -13,12 +13,15 @@
 
 ### About this repo   
 #### *A jupyter notebook (```llm_sentiment_classifier.ipynb```) which takes in financial news for ticker (AKA stock symbols) and returns sentiments is provided. Final results should look something like this:*
-<img src="https://github.com/semework/llm-GPT-Alpaca-BERT-financial-sentiment-classification/blob/main/assets/images/semtiments.png" 
+
+<p align="center">
+  <img src="https://github.com/semework/llm-GPT-Alpaca-BERT-financial-sentiment-classification/blob/main/assets/images/semtiments.png" 
  style="display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;" /> 
- 
+  height: 200px;" /> 
+</p>
+
 ### Approach steps:
 
 #### Step 0 - Install the necessary libraries - uncomment and run the following cells if they are not already installed. This is followed by importing the necessary libraries. # Langchain sometimes has issues with dependencies and it is recommended to install with upgrade
