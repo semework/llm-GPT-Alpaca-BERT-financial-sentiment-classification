@@ -24,7 +24,7 @@
 
 ### Approach steps:
 
-#### Step 0 - Install the necessary libraries - run the following cells if they are not already installed. This is followed by importing the necessary libraries. # Langchain sometimes has issues with dependencies and it is recommended to install with upgrade
+#### Step 0 - Install the necessary libraries - if they are not already installed. This is followed by importing the necessary libraries. Langchain sometimes has issues with dependencies and it is recommended to install with upgrade
 
 ```commandline
 pip -q install alpaca-trade-api alpaca-py transformers openai tiktoken
@@ -83,8 +83,8 @@ More info here: https://docs.pydantic.dev/latest/usage/models/ which states:
 - weigh recent news more heavily (straightforward linear increase, going from old to new - although there can be many variations of this approach such as inverted/hyperbolic, linear-with-noise, etc. approaches)
 - use sentiment confidence to adjust our weights. i.e. multiply recency score with the score
 - the function ```sentiment_to_weighed``` takes care of the weighing
-- the function ```sentiment_analysis``` takes in a list and tickers and returns a weighed sentiment per ticker
-- since OpenAI's tocken allotments deplete quickly, a few lines in  ```sentiment_analysis``` are commented out and a flag is given. Uncomment them if you have enough tokens left (after changing ```do_llm``` flag to "1". Note that llm sentiment classification is slow.
+- the function ```sentiment_analysis``` takes in a list of tickers and returns a weighed sentiment per ticker
+- since OpenAI's tocken allotments deplete quickly, a few lines in  ```sentiment_analysis``` are commented out and a flag is given. Uncomment them if you have enough tokens left (after changing ```do_llm``` flag to "1"). Note that llm sentiment classification is slow.
 
 ### What you should see for each ticker:
 
